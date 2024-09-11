@@ -73,6 +73,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
+  /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/Clock_Slow.sv
   /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/T_FlipFlop.sv
   /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/counter_4b.sv
   /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/param_mux.sv
@@ -92,7 +93,7 @@ set_property used_in_implementation false [get_files /home/ncking/ECE-4305_Lab-2
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/utils_1/imports/synth_1/tb_top.dcp
+read_checkpoint -auto_incremental -incremental /home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/utils_1/imports/synth_1/top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

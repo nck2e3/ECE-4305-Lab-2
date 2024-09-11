@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
+"../../../../ECE-4305_Lab-2.srcs/sources_1/new/Clock_Slow.sv" \
 "../../../../ECE-4305_Lab-2.srcs/sources_1/new/T_FlipFlop.sv" \
 "../../../../ECE-4305_Lab-2.srcs/sources_1/new/counter_4b.sv" \
 "../../../../ECE-4305_Lab-2.srcs/sources_1/new/param_mux.sv" \

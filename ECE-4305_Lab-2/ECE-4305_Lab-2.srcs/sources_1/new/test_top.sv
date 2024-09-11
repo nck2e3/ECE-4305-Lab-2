@@ -24,14 +24,15 @@ module test_top;
     logic rst;
     logic [3:0] M;
     logic [3:0] N;
-    logic data_out;
+    logic data_out, clk_slow;
 
     top uut (
         .clk(clk),
         .rst(rst),
         .M(M),
         .N(N),
-        .data_out(data_out)
+        .data_out(data_out),
+        .clk_slow(clk_slow)
     );
  
     always #5 clk = ~clk;
@@ -45,7 +46,7 @@ module test_top;
         rst = 1;
         #20;     
         rst = 0;    
-        #5000;    
+        #500000;    
         $stop;
     end
 endmodule
