@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 14 2024
+09:10:06
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/Clock_Slow.sv,1726006764,systemVerilog,,/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/T_FlipFlop.sv,,Clock_Slow,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/T_FlipFlop.sv,1726042775,systemVerilog,,/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/counter_4b.sv,,T_FlipFlop,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/counter_4b.sv,1726055587,systemVerilog,,/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/param_mux.sv,,counter,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/param_mux.sv,1726049769,systemVerilog,,/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/top.sv,,param_mux,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/test_top.sv,1726056863,systemVerilog,,,,test_top,,uvm,,,,,,
+/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/top.sv,1726056717,systemVerilog,,/home/ncking/ECE-4305_Lab-2/ECE-4305_Lab-2.srcs/sources_1/new/test_top.sv,,top,,uvm,,,,,,
